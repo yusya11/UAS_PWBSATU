@@ -8,20 +8,20 @@
 
   <title>Yusay.Fotografi</title>
 
-<!-- Fonts -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap" rel="stylesheet">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap" rel="stylesheet">
 
-<!-- Feather Icon -->
-<script src="https://unpkg.com/feather-icons"></script>
+  <!-- Feather Icon -->
+  <script src="https://unpkg.com/feather-icons"></script>
 
-<!-- My Style -->
-  <link rel="stylesheet" href="css/style.css">
+  <!-- My Style -->
+  <link rel="stylesheet" href="css/webstyle.css">
 </head>
 
 <body>
-    <!-- Navbar Start -->
+  <!-- Navbar Start -->
   <nav class="navbar">
     <a href="#" class="navbar-logo">Yusya<span>Fotografi</span>.</a>
 
@@ -53,11 +53,11 @@
   </section>
 
   <!-- Section Depan End -->
-  
+
   <!-- About Section Start -->
-  
+
   <section id="about" class="about">
-    <h2><span>Tentang</span> Kami</h2> 
+    <h2><span>Tentang</span> Kami</h2>
 
     <div class="row">
       <div class="about-img">
@@ -67,15 +67,15 @@
         <h3>Fotografi....?</h3>
         <p>"Fotografi berhubungan secara indah dengan penampilan, tetapi tidak ada yang terlihat."</p>
         <p>"Ada satu hal yang harus dimuat dalam foto itu yakni kemanusiaan.".</p>
-        
+
       </div>
     </div>
   </section>
 
   <!-- About Section End-->
-  
+
   <!-- Menu Section Start -->
-  
+
   <section id="menu" class="menu">
     <h2><span>GALERI</span> KAMI</h2>
     <p>Berikut ini adalah hasil Karya jepretan Saya......</p>
@@ -83,28 +83,43 @@
       <div class="menu-card">
         <img src="img/menu/buku 1.jpg" alt="latte" class="menu-card-img">
         <h1 class="menu-card-title">- Tangan Memegang Buku -</h1>
-         <a href="transaksi.php"><button class="btnBeli"><h2<p class="menu-card-price">IDR 70.000</p><h2></button></a>
+        <a href="transaksi.php"><button class="btnBeli">
+            <h2<p class="menu-card-price">IDR 70.000</p>
+              <h2>
+          </button></a>
       </div>
       <div class="menu-card">
         <img src="img/menu/DSC00487.jpg" alt="latte" class="menu-card-img">
         <h1 class="menu-card-title">- Bermain Catur -</h1>
-         <a href="transaksi.php"><button class="btnBeli"><h2<p class="menu-card-price">IDR 70.000</p><h2></button></a>
+        <a href="transaksi.php"><button class="btnBeli">
+            <h2<p class="menu-card-price">IDR 70.000</p>
+              <h2>
+          </button></a>
       </div>
       <div class="menu-card">
         <img src="img/menu/buku 2.jpg" alt="latte" class="menu-card-img">
         <h1 class="menu-card-title">- Membaca Buku -</h1>
-         <a href="transaksi.php" ><button class="btnBeli"><h2<p class="menu-card-price">IDR 70.000</p><h2></button></a>
+        <a href="transaksi.php"><button class="btnBeli">
+            <h2<p class="menu-card-price">IDR 70.000</p>
+              <h2>
+          </button></a>
       </div>
       <div class="menu-card">
         <img src="img/menu/vipp.jpg" alt="latte" class="menu-card-img">
         <h1 class="menu-card-title">- Skak Mat.. -</h1>
-         <a href="transaksi.php"><button class="btnBeli"><h2<p class="menu-card-price">IDR 70.000</p><h2></button></a>
+        <a href="transaksi.php"><button class="btnBeli">
+            <h2<p class="menu-card-price">IDR 70.000</p>
+              <h2>
+          </button></a>
       </div>
       <div class="menu-card">
         <img src="img/depan.jpg" alt="latte" class="menu-card-img">
         <h1 class="menu-card-title">- Pemandangan -</h1>
-         <a href="transaksi.php"><button class="btnBeli"><h2<p class="menu-card-price">IDR 70.000</p><h2></button></a>
-        </div>
+        <a href="transaksi.php"><button class="btnBeli">
+            <h2<p class="menu-card-price">IDR 70.000</p>
+              <h2>
+          </button></a>
+      </div>
 
   </section>
 
@@ -116,50 +131,53 @@
   <section id="contact" class="contact">
     <h2><span>Kontak</span> Kami</h2>
     <p>Silakan Hubungi Akun Instagram kami Jika Berminat mengoleksi Foto Kami</p>
-  <div class="row">
-    <iframe src="https://maps.app.goo.gl/wyfhx1vF6K8gotbV8" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
-  
-  <form action="">
-    <div class="input-group">
-      <i data-feather="user"></i>
-      <input type="text" placeholder="nama">
+    <div class="row">
+      <iframe src="https://maps.app.goo.gl/wyfhx1vF6K8gotbV8" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+
+      <form action="">
+        <div class="input-group">
+          <i data-feather="user"></i>
+          <input type="text" placeholder="nama">
+        </div>
+        <div class="input-group">
+          <i data-feather="mail"></i>
+          <input type="text" placeholder="email">
+        </div>
+        <div class="input-group">
+          <i data-feather="phone"></i>
+          <input type="text" placeholder="no hp">
+        </div>
+        <a href="https://wa.me/6285702481426" target="_blank"><button class="btn">
+            <h2<p class="menu-card-price">Kirim Pesan</p>
+              <h2>
+          </button></a>
+      </form>
     </div>
-    <div class="input-group">
-      <i data-feather="mail"></i>
-      <input type="text" placeholder="email">
-    </div>
-    <div class="input-group">
-      <i data-feather="phone"></i>
-      <input type="text" placeholder="no hp">
-    </div>
-    <a href="https://wa.me/6285702481426" target="_blank"><button class="btn"><h2<p class="menu-card-price">Kirim Pesan</p><h2></button></a>
-  </form>
-  </div>
   </section>
 
   <!-- Kontak Section End -->
 
-<!-- Footer Start -->
+  <!-- Footer Start -->
 
-<footer class="footer">
-<div class="socials">
-  <a href="https://instagram.com/yusya11_?igshid=ODd5OTBpamcwMW4w" target="_blank"><i data-feather="instagram"></i></a>
-</div>
+  <footer class="footer">
+    <div class="socials">
+      <a href="https://instagram.com/yusya11_?igshid=ODd5OTBpamcwMW4w" target="_blank"><i data-feather="instagram"></i></a>
+    </div>
 
-<div class="links">
-  <a href="#home">Home</a>
-  <a href="#about">Tentang Kami</a>
-  <a href="#menu">Menu</a>
-  <a href="#contact">Kontak</a>
-  <a href="logout.php">logout</a>
-</div>
+    <div class="links">
+      <a href="#home">Home</a>
+      <a href="#about">Tentang Kami</a>
+      <a href="#menu">Menu</a>
+      <a href="#contact">Kontak</a>
+      <a href="logout.php">logout</a>
+    </div>
 
-<div class="credit">
-  <p>Created By <a href="">Haidar Yusysa</a> - 2023.</p>
-</div>
-</footer>
+    <div class="credit">
+      <p>Created By <a href="">Haidar Yusysa</a> - 2023.</p>
+    </div>
+  </footer>
 
-<!-- Footer End -->
+  <!-- Footer End -->
 
 
   <!-- Feather Icon -->
@@ -167,7 +185,8 @@
     feather.replace()
   </script>
 
-<!-- My Javascript -->
-<script src="js/script.js"></script>
+  <!-- My Javascript -->
+  <script src="js/script.js"></script>
 </body>
+
 </html>
